@@ -1,0 +1,308 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CHAT_DLG DIALOGEX 0, 0, 388, 291
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "聊天窗口"
+MENU IDR_CHAT_MENU
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    CONTROL         "发送",ID_SEND_MSG_BUTTON,"Button",BS_OWNERDRAW | 
+                    BS_VCENTER | WS_TABSTOP,276,237,50,14,
+                    WS_EX_DLGMODALFRAME
+END
+
+IDD_LOGIN_DIALOG DIALOGEX 0, 0, 259, 186
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "登录框"
+FONT 10, "System", 0, 0, 0x1
+BEGIN
+    CONTROL         "登录",ID_LOGIN_BUTTON,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,75,125,50,14
+    CONTROL         "注册",ID_REGISTER_BUTTON,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,141,125,50,14
+    EDITTEXT        IDC_IDSTR_EDIT,120,50,77,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "ID号：",IDC_IDSTR,75,50,34,14,WS_BORDER,
+                    WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_PWD_EDIT,120,82,78,15,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "密码：",IDC_PASSWORD_BUTTON,75,82,34,15,WS_BORDER,
+                    WS_EX_CLIENTEDGE
+END
+
+IDD_REGISTER_DIALOG DIALOGEX 0, 0, 232, 251
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "注册框："
+FONT 10, "System"
+BEGIN
+    CONTROL         "提交",ID_SUBMIT_BUTTON,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,87,215,50,14
+    EDITTEXT        IDC_RNAME_EDIT,93,98,80,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RPWD_EDIT,93,128,80,14,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_RAGE_EDIT,93,158,80,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_RHRO_EDIT,93,187,80,14,ES_AUTOHSCROLL
+    LTEXT           "昵称：",IDC_RNAME_STATIC,53,98,30,14,SS_CENTERIMAGE | 
+                    WS_BORDER,WS_EX_CLIENTEDGE
+    LTEXT           "年龄：：",IDC_RAGE_STATIC,53,158,30,14,SS_CENTERIMAGE | 
+                    WS_BORDER,WS_EX_CLIENTEDGE
+    LTEXT           "密码：",IDC_RPWD_STATIC3,53,128,30,14,SS_CENTERIMAGE | 
+                    WS_BORDER,WS_EX_CLIENTEDGE
+    LTEXT           "性别：",IDC_RHRO_STATIC,53,188,30,14,SS_CENTERIMAGE | 
+                    WS_BORDER,WS_EX_CLIENTEDGE
+    CONTROL         134,IDC_HEAD1_STATIC,"Static",SS_BITMAP | SS_NOTIFY,64,
+                    20,20,20
+    LTEXT           "头像：",IDC_HEAD_STATEXT,53,70,29,13,SS_CENTERIMAGE,
+                    WS_EX_CLIENTEDGE
+    COMBOBOX        IDC_COMBO_HEAD,92,69,80,48,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_GROUP | WS_TABSTOP
+    CONTROL         135,IDC_HEAD2_STATIC,"Static",SS_BITMAP,105,20,20,20
+    CONTROL         136,IDC_HEAD3_STATIC,"Static",SS_BITMAP,145,20,20,20
+    LTEXT           "头像1",IDC_STATIC_HEAD1,63,41,22,12
+    LTEXT           "头像3",IDC_STATIC_HEAD3,143,41,22,12
+    LTEXT           "头像2",IDC_STATIC_HEAD2,104,41,22,12
+END
+
+IDD_FRIINFO_DIALOG DIALOGEX 0, 0, 244, 227
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "好友信息框"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_INFOINFO_EDIT,110,45,80,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_STATEINFO_EDIT,110,103,80,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_AGEINFO_EDIT,110,133,80,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_SEXINFO_EDIT,110,162,80,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "昵称：",IDC_RNAME_STATIC,50,73,48,14,SS_CENTERIMAGE | 
+                    WS_BORDER,WS_EX_CLIENTEDGE
+    LTEXT           "年龄:",IDC_AGEINFO_STATIC,50,133,48,14,SS_CENTERIMAGE | 
+                    WS_BORDER,WS_EX_CLIENTEDGE
+    LTEXT           "在线状态：",IDC_STATE_STATIC,50,103,48,14,
+                    SS_CENTERIMAGE | WS_BORDER,WS_EX_CLIENTEDGE
+    LTEXT           "性别：",IDC_SEXINFO_STATIC,50,163,48,14,SS_CENTERIMAGE | 
+                    WS_BORDER,WS_EX_CLIENTEDGE
+    LTEXT           "ID：",IDC_IDINFO_STATIC,50,45,50,15,WS_BORDER,
+                    WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_NAMEINFO_EDIT2,110,75,80,14,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    CONTROL         "",IDC_HEAD_BUTTON,"Button",BS_OWNERDRAW | BS_BITMAP | 
+                    WS_TABSTOP,135,10,24,22,WS_EX_CLIENTEDGE
+    LTEXT           "头像：",IDC_HEAD_STATIC,50,20,50,15,WS_BORDER,
+                    WS_EX_CLIENTEDGE
+END
+
+IDD_ADDFRI_DIALOG DIALOGEX 0, 0, 272, 156
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "好友添加框"
+FONT 10, "System"
+BEGIN
+    CONTROL         "确认",ID_ADDFRI_BUTTON,"Button",BS_OWNERDRAW | 
+                    WS_TABSTOP,110,99,50,14
+    LTEXT           "要添加人的ID:",IDC_ADDFRI_ID_STATIC,50,54,62,17,
+                    WS_BORDER,WS_EX_CLIENTEDGE
+    EDITTEXT        IDC_ADDFRI_ID_EDIT,125,54,100,19,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_CHAT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 381
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 284
+    END
+
+    IDD_LOGIN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 252
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_REGISTER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 225
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 244
+    END
+
+    IDD_FRIINFO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 220
+    END
+
+    IDD_ADDFRI_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 149
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_CHAT_MENU MENU DISCARDABLE 
+BEGIN
+    MENUITEM "",                            65535
+    POPUP "好友管理(&C)"
+    BEGIN
+        MENUITEM "添加好友(&A)",                IDF_ADDFRI
+        MENUITEM "删除好友(&D)",                IDF_DELETE_FRI
+        MENUITEM "查看好友信息(&L)",            IDF_SEE_INFOMATION
+        MENUITEM "退出(&E)",                    IDC_EXIT_LOGIN
+    END
+    POPUP "设置(&S)"
+    BEGIN
+        POPUP "背景图片(&P)"
+        BEGIN
+            MENUITEM "图片1",                       ID_BGP_P1
+            MENUITEM "图片2",                       ID_BGP_P2
+            MENUITEM "图片3",                       ID_BGP_P3
+            MENUITEM "默认",                        ID_BGP_P0
+        END
+        MENUITEM "修改个人信息(&C)",            ID_SET_INFOMATOIN
+    END
+    MENUITEM "帮助(&H)",                    ID_HELP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP6             BITMAP  DISCARDABLE     "qq6.bmp"
+IDB_BITMAP7             BITMAP  DISCARDABLE     "Register.bmp"
+IDB_BITMAP8             BITMAP  DISCARDABLE     "ChatWnd.bmp"
+IDB_BUTTON_BITMAP       BITMAP  DISCARDABLE     "bitmap9.bmp"
+IDB_BITMAP10            BITMAP  DISCARDABLE     "ChatWnd1.bmp"
+IDB_BITMAP11            BITMAP  DISCARDABLE     "bitmap11.bmp"
+IDB_BITMAP12            BITMAP  DISCARDABLE     "ChatWnd2.bmp"
+IDB_BITMAP13            BITMAP  DISCARDABLE     "ChatWnd3.bmp"
+IDB_HEAD_BITMAP1        BITMAP  DISCARDABLE     "1.bmp"
+IDB_HEAD_BITMAP2        BITMAP  DISCARDABLE     "2.bmp"
+IDB_HEAD_BITMAP3        BITMAP  DISCARDABLE     "3.bmp"
+IDB_BITMAP14            BITMAP  DISCARDABLE     "bitmap14.bmp"
+IDB_BITMAP15            BITMAP  DISCARDABLE     "bitmap15.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_REGISTER_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_HEAD, 0x403, 6, 0
+0xbccd, 0xacc6, 0x0031, 
+    IDC_COMBO_HEAD, 0x403, 6, 0
+0xbccd, 0xacc6, 0x0032, 
+    IDC_COMBO_HEAD, 0x403, 6, 0
+0xbccd, 0xacc6, 0x0033, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "icon1.ico"
+IDI_ICON2               ICON    DISCARDABLE     "icon2.ico"
+IDI_ICON3               ICON    DISCARDABLE     "icon3.ico"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
