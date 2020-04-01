@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AsyncSelectClient", "AsyncSelectClient\AsyncSelectClient.vcxproj", "{0E85A427-9D00-A51B-398E-E3115744FF5C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EventServices", "EventServices\EventServices.vcxproj", "{4FAACFF5-7934-36B6-0732-99C6C2DDE5FE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OverLappedServices", "OverLappedServices\OverLappedServices.vcxproj", "{6A73CDD3-6593-4B2E-6931-702D1F653FCD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "selectServices", "selectServices\selectServices.vcxproj", "{CCC7B4D7-F120-2848-33D2-D44BF11C3E62}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SelectSer", "SelectSer\SelectSer.vcxproj", "{63816D23-20E2-459F-92D1-CEA100A90454}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E85A427-9D00-A51B-398E-E3115744FF5C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0E85A427-9D00-A51B-398E-E3115744FF5C}.Debug|Win32.Build.0 = Debug|Win32
+		{0E85A427-9D00-A51B-398E-E3115744FF5C}.Release|Win32.ActiveCfg = Release|Win32
+		{0E85A427-9D00-A51B-398E-E3115744FF5C}.Release|Win32.Build.0 = Release|Win32
+		{0E85A427-9D00-A51B-398E-E3115744FF5C}.Template|Win32.ActiveCfg = Release|Win32
+		{0E85A427-9D00-A51B-398E-E3115744FF5C}.Template|Win32.Build.0 = Release|Win32
+		{4FAACFF5-7934-36B6-0732-99C6C2DDE5FE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4FAACFF5-7934-36B6-0732-99C6C2DDE5FE}.Debug|Win32.Build.0 = Debug|Win32
+		{4FAACFF5-7934-36B6-0732-99C6C2DDE5FE}.Release|Win32.ActiveCfg = Release|Win32
+		{4FAACFF5-7934-36B6-0732-99C6C2DDE5FE}.Release|Win32.Build.0 = Release|Win32
+		{4FAACFF5-7934-36B6-0732-99C6C2DDE5FE}.Template|Win32.ActiveCfg = Template|Win32
+		{4FAACFF5-7934-36B6-0732-99C6C2DDE5FE}.Template|Win32.Build.0 = Template|Win32
+		{6A73CDD3-6593-4B2E-6931-702D1F653FCD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6A73CDD3-6593-4B2E-6931-702D1F653FCD}.Debug|Win32.Build.0 = Debug|Win32
+		{6A73CDD3-6593-4B2E-6931-702D1F653FCD}.Release|Win32.ActiveCfg = Release|Win32
+		{6A73CDD3-6593-4B2E-6931-702D1F653FCD}.Release|Win32.Build.0 = Release|Win32
+		{6A73CDD3-6593-4B2E-6931-702D1F653FCD}.Template|Win32.ActiveCfg = Template|Win32
+		{6A73CDD3-6593-4B2E-6931-702D1F653FCD}.Template|Win32.Build.0 = Template|Win32
+		{CCC7B4D7-F120-2848-33D2-D44BF11C3E62}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CCC7B4D7-F120-2848-33D2-D44BF11C3E62}.Debug|Win32.Build.0 = Debug|Win32
+		{CCC7B4D7-F120-2848-33D2-D44BF11C3E62}.Release|Win32.ActiveCfg = Release|Win32
+		{CCC7B4D7-F120-2848-33D2-D44BF11C3E62}.Release|Win32.Build.0 = Release|Win32
+		{CCC7B4D7-F120-2848-33D2-D44BF11C3E62}.Template|Win32.ActiveCfg = Template|Win32
+		{CCC7B4D7-F120-2848-33D2-D44BF11C3E62}.Template|Win32.Build.0 = Template|Win32
+		{63816D23-20E2-459F-92D1-CEA100A90454}.Debug|Win32.ActiveCfg = Debug|Win32
+		{63816D23-20E2-459F-92D1-CEA100A90454}.Debug|Win32.Build.0 = Debug|Win32
+		{63816D23-20E2-459F-92D1-CEA100A90454}.Release|Win32.ActiveCfg = Release|Win32
+		{63816D23-20E2-459F-92D1-CEA100A90454}.Release|Win32.Build.0 = Release|Win32
+		{63816D23-20E2-459F-92D1-CEA100A90454}.Template|Win32.ActiveCfg = Release|Win32
+		{63816D23-20E2-459F-92D1-CEA100A90454}.Template|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
